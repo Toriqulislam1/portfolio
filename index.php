@@ -224,7 +224,7 @@
 
     <!-- footer section start -->
     <footer>
-         <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+         <span class="far fa-copyright"></span> copy right</span>
     </footer>
 
 
