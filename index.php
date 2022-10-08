@@ -20,13 +20,13 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <div class="logo"><a style="color: black;" href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a style="color: black;"  href="#home" class="menu-btn">Home</a></li>
+                <li><a style="color: black;" href="#about" class="menu-btn">About</a></li>
+                <li><a style="color: black;" href="#services" class="menu-btn">Services</a></li>
+                <li><a style="color: black;" href="#skills" class="menu-btn">Skills</a></li>
+                <li><a style="color: black;" href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -36,12 +36,12 @@
 
 
     <!-- home section start -->
-    <section class="home" id="home" style="background-image:url(image/toriqul.jpeg); background-repeat: no-repeat;  background-attachment: fixed; background-position: center;background-size: 1390px 750px;">
+    <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Toriqul islam</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <div style="color: black;" class="text-1">Hello, my name is</div>
+                <div style="color: black;" class="text-3">Toriqul islam</div>
+                <div style="color: black;" class="text-3">And I'm a <span class="typing"></span></div>
                 <a href="#">Hire me</a>
             </div>
         </div>
@@ -53,7 +53,7 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="image/ss.jpg" alt="">
+                   
                 </div>
                 <div class="column right">
                     <div class="text">I'm Toriqul islam and I'm a <span class="typing-2"></span></div>
@@ -107,60 +107,40 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p style="font-weight: 500;">I'm a professional full stack developer.my experiences is HTML, CSS, JAVASCRIPT,BOOTSTRAP,php,mysql,laravel.</p>
+                    <p style="font-weight: 500;">I'm a student though but I've learnt HTML, CSS, JAVASCRIPT and BOOTSTRAP. I'm still learning JavaScript and working with bootstrap framework. 
+            I know 80% HTML, 60% CSS, 20% JAVASCRIPT, 70% BOOTSTRAP.
+             In future I'll be a full stack developer. I've worked some small projects.</p>
                     <a href="#">Read more</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
                             <span>HTML</span>
-                            <span>100%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line html"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>CSS</span>
-                            <span>95 </span>
+                            <span>60%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>75%</span>
+                            <span>20%</span>
                         </div>
                         <div class="line js"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Bootstrap</span>
-                            <span>99%</span>
+                            <span>70%</span>
                         </div>
                         <div class="line bootstrap"></div>
             </div>
-            <div class="bars">
-                        <div class="info">
-                            <span>php</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="line bootstrap"></div>
-            </div>
-            <div class="bars">
-                        <div class="info">
-                            <span>mysql</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="line bootstrap"></div>
-            </div>
-            <div class="bars">
-                        <div class="info">
-                            <span>laravel</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="line bootstrap"></div>
-            </div>
-
         </div>
     </section>
 
@@ -177,7 +157,7 @@
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title">Toriqul islam</div>
+                                <div class="sub-title">Toriqul</div>
                             </div>
                         </div>
                         <div class="row">
@@ -198,7 +178,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="" method="post">
+                    <form action="#">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
@@ -224,7 +204,7 @@
 
     <!-- footer section start -->
     <footer>
-         <span class="far fa-copyright"></span> copy right</span>
+         <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
     </footer>
 
 

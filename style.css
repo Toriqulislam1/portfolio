@@ -166,18 +166,20 @@ section .title::after {
 }
 
   
- /* home section styling  */
+ home section styling 
 .home {
   display: flex;
-      /* background-image: url( image/toriqul.jpeg) no-repeat center; */
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: "Ubuntu", sans-serif;
+  background: url("") no-repeat
+    center;
+  height: 250px;
+  width: 250px;
+  color: #fff;
+  min-height: 500px;
+  background-size: cover;
+ 
+  font-family: "Ubuntu", sans-serif;
 }
-.home .max-width {
+/*.home .max-width {
   width: 100%;
   display: flex;
 }
@@ -215,7 +217,7 @@ section .title::after {
 .home .home-content a:hover {
   color: crimson;
   background: none;
-}*/
+}
 
 /* about section styling */
 .about .title::after {
@@ -407,7 +409,7 @@ section .title::after {
   margin-left: 30px;
 }
 .contact .contact-content .row i {
-  font-size: 100px;
+  font-size: 25px;
   color: crimson;
 }
 .contact .contact-content .info .head {
